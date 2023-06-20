@@ -19,7 +19,7 @@ const tutorials = [
 
 
 
-const titleCased = () => {
+const upperCased = () => {
 return tutorials.map(tutorial => {
     const words = tutorial.split(' ');
     const capitalizedWords = words.map(word => word.charAt(0).toUpperCase() + word.slice(1));
